@@ -100,7 +100,7 @@ class Mix
      * @param  string  $path
      * @return string
      */
-    protected function public_path($path = '')
+    protected static function public_path($path = '')
     {
     	$publicPath = rtrim(self::$publicPath, '/');
     	$path = '/' . ltrim($path, '/');
