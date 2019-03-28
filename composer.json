@@ -1,0 +1,19 @@
+{
+    "name": "webnuvola/laravel-mix-standalone",
+    "description": "Standalone version of Laravel Mix php class",
+    "keywords": ["laravel", "mix", "standalone"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabio Cagliero",
+            "email": "caglierofabio@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webnuvola\\Laravel\\": "src"
+        },
+        "files": ["helpers/mix.php"]
+    }
+}
